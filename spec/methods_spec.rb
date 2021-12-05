@@ -44,7 +44,7 @@ end
 describe '#halve' do
   
   it 'returns half of the given integer' do
-    expect(halve(6)).to be(3)
+    expect(halve(6)).to eq(3)
   end
 
   it 'returns nil if not given a integer' do
